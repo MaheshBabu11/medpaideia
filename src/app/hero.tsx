@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
+import YoutubeIcon from "@/components/icons";
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
         }}
       >
         {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
-        <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
+        <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-3 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography
               variant="h1"
@@ -28,11 +29,14 @@ function Hero() {
               className="mb-7 !text-white md:pr-16 xl:pr-28 backdrop-blur-sm"
             >
               The ultimate companion for medical students designed with
-              cutting-edge technology and curated by experts in the field, We
-              are re-defining medical education by offering a comprehensive
-              solution tailored to your learning needs.
+              cutting-edge technology and curated by experts in the field
+              offering a comprehensive solution tailored to your learning needs.
             </Typography>
+            <a href="https://www.youtube.com/@Medpeadiaedu" target="_blank">
+              <YoutubeIcon className="h-20 w-20 text-red-700 ml-10 mt-5 "  />
+            </a>
           </div>
+
           {/* <Image
             width={470}
             height={576}
@@ -42,7 +46,7 @@ function Hero() {
           /> */}
         </div>
       </header>
-      <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
+      <div className="mx-8 lg:mx-16 -mt-10 lg:-mt-32 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
             Our Mission
@@ -51,10 +55,10 @@ function Hero() {
             variant="paragraph"
             className="font-normal !text-gray-500"
           >
-            <strong>Medpedia</strong> stands at the forefront of revolutionizing medical
-            education. Seamlessly blending technological innovation and curated
-            expertise, we provide a transformative learning environment tailored
-            for aspiring medical professionals. Our platform transcends
+            <strong>Medpedia</strong> stands at the forefront of revolutionizing
+            medical education. Seamlessly blending technological innovation and
+            curated expertise, we provide a transformative learning environment
+            tailored for aspiring medical professionals. Our platform transcends
             traditional boundaries, offering interactive and engaging
             experiences that empower learners to grasp intricate medical
             concepts with ease. Through our dedication to cutting-edge
