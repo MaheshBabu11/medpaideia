@@ -43,15 +43,16 @@ export function Features() {
   return (
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography color="blue-gray" className="mb-2 font-bold uppercase" placeholder="Your placefolder">
           Your Learning Platform
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography variant="h1" color="blue-gray" className="mb-4" placeholder="Your placefolder">
           Diverse Learning Resources
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
+          placeholder="Your placefolder"
         >
           Access your learning materials in one place. We offer a wide range of
           lectures, videos, and quizzes to help you learn and retain information
@@ -61,7 +62,7 @@ export function Features() {
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">
         {FEATURES.map((props, idx) => (
-          <FeatureCard key={idx} {...props} />
+          <FeatureCard key={idx} {...props}/>
         ))}
       </div>
     </section>
