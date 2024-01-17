@@ -36,10 +36,10 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/icon.png" type="image/png" />
         <link rel="canonical" href="" />
       {/* og image */}
-      <meta property="og:image" content="https://medpaideia.vercel.app/image/og-image.png"/>
+      <meta property="og:image" content={`https://medpaideia.vercel.app/image/og-image.png`}/>
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content={`Image with "${metadata.title}" text.`} />
+      <meta property="og:image:alt" content={`Medpedia Image`} />
       </head>
       <body className={roboto.className}>
         <Analytics />
