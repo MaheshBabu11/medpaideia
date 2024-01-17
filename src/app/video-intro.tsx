@@ -13,14 +13,19 @@ export function VideoIntro() {
         <div className="bg-black/25 z-10 absolute w-full h-full inset-0 rounded-xl" />
         <Image
           width={768}
-          height={400}
-          src="/image/Background.png"
+          height={300}
+          src="/image/medpaideia.png"
           className="w-full object-cover scale-110 rounded-xl h-full"
           alt=""
         />
         <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 z-10">
           <IconButton color="white" className="rounded-full" size="lg">
-            <PlayIcon className="h-6 w-6" />
+            <PlayIcon className="h-6 w-6" onClick={
+              () => {
+                window.open("https://www.youtube.com/@MedPaideia", "_blank")
+              }
+            
+            }/>
           </IconButton>
         </div>
       </div>

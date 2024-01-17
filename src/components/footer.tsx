@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { Typography, IconButton, Button } from "@material-tailwind/react";
 
 const LINKS: string[] = [];
@@ -10,7 +9,7 @@ export function Footer() {
   return (
     <footer className="mt-10 bg-gray-900 px-8 pt-12">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-center gap-8 md:justify-between">
+        <div className="flex flex-wrap justify-center gap-1 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
               as="a"
@@ -23,10 +22,13 @@ export function Footer() {
               About Us
             </Typography>
            
-            <Typography color="white" className="mb-12 font-normal">
-            {'<Insert content here>'}
+            <Typography color="white" className="mb-5 font-normal ">
+              MedPedia Team <br />
+              Ph: +91 9562424032 <br />
+              Email: medpaideia.edu@gmail.com <br />
+
             </Typography>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+            {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
@@ -41,7 +43,7 @@ export function Footer() {
                   </Typography>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
@@ -54,7 +56,8 @@ export function Footer() {
               className="fa fa-heart pulse text-red-700
             "
             ></i>{" "}
-            by MedPedia Team
+            for MedPedia Team by <a href="https://www.linkedin.com/in/maheshbabu11/" target="_blank" className="text-white italic"
+            >Mahesh Babu</a>
           </Typography>
         </div>
       </div>
