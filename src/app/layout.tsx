@@ -35,6 +35,7 @@ export default function RootLayout({
         />
         <link rel="shortcut icon" href="/icon.png" type="image/png" />
         <link rel="canonical" href="https://www.medpaideia.in/" />
+        <link rel="manifest" href="/manifest.json" />
       {/* og image */}
       <meta property="og:image" content={`https://www.medpaideia.in/image/og-image.png`}/>
       <meta property="og:image:width" content="1200" />
