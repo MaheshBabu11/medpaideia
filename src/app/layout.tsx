@@ -5,6 +5,7 @@ import { FixedPlugin, Layout } from "@/components";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
+
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],
@@ -33,6 +34,12 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
         <link rel="shortcut icon" href="/icon.png" type="image/png" />
+        <link rel="canonical" href="" />
+      {/* og image */}
+      <meta property="og:image" content="https://medpaideia.vercel.app/image/og-image.png"/>
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={`Image with "${metadata.title}" text.`} />
       </head>
       <body className={roboto.className}>
         <Analytics />
