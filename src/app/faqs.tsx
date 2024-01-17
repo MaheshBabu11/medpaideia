@@ -51,7 +51,7 @@ export function Faqs() {
 
         <div className="grid gap-20 md:grid-cols-1 lg:grid-cols-3">
           {FAQS.map(({ title, desc }) => (
-            <Card key={title} shadow={false} color="transparent">
+            <Card key={title} shadow={false} color="transparent" placeholder="Your placeholder">
               <Typography color="blue-gray" className="pb-6" variant="h4" placeholder="Your placeholder text here">
                 {title}
               </Typography>
