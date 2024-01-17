@@ -18,6 +18,7 @@ export function Footer() {
               variant="h5"
               color="white"
               className="mb-4"
+              placeholder="YourPlaceholderValue"
             >
               About Us
             </Typography>
@@ -50,6 +51,7 @@ export function Footer() {
           <Typography
             color="white"
             className="text-center font-normal opacity-75"
+            placeholder="YourPlaceholderValue"
           >
             &copy; {CURRENT_YEAR} Made with{" "}
             <i

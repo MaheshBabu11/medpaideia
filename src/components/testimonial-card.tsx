@@ -15,9 +15,9 @@ export function TestimonialCard({
   title,
 }: TestimonialCardProps) {
   return (
-    <Card shadow={false} className="items-center text-center">
+    <Card shadow={false} className="items-center text-center" placeholder="YourPlaceholderValue">
       <CardBody>
-        <Avatar src={img} className="mb-3" alt={client} size="lg" />
+        <Avatar src={img} className="mb-3" alt={client} size="lg" placeholder="YourPlaceholderValue"/>
         <Typography variant="h6" color="blue-gray" placeholder="YourPlaceholderValue">
           {client}
         </Typography>
@@ -27,6 +27,7 @@ export function TestimonialCard({
         <Typography
           variant="paragraph"
           className="mb-5 font-normal !text-gray-500"
+          placeholder="YourPlaceholderValue"
         >
           &quot;{feedback}&quot;
         </Typography>

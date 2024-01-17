@@ -22,6 +22,7 @@ function NavItem({ children, href, onClick }: NavItemProps) {
         target={ "_self"}
         variant="small"
         className="font-medium"
+        placeholder="YourPlaceholderValue"
       >
         {children}
       </Typography>
@@ -73,6 +74,7 @@ export function Navbar() {
           variant="h5"
           color={isScrolling ? "gray" : "white"}
           className="ml-2"
+          placeholder="YourPlaceholderValue"
         >
           <div className="flex items-center">
             <img src="/icon.png" alt="Icon" className="w-14 h-14" />

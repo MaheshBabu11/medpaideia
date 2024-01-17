@@ -44,6 +44,7 @@ export function Testimonials() {
           <Typography
             variant="lead"
             className="mb-10 max-w-3xl text-center !text-gray-600"
+            placeholder="YourPlaceholderValue"
           >
             Discover what our valued clients have to say about their experiences
             with our services. We take pride in delivering exceptional results
