@@ -33,7 +33,7 @@ function Hero() {
               offering a comprehensive solution tailored to your learning needs.
             </Typography>
             <a href="https://www.youtube.com/@MedPaideia" target="_blank">
-              <YoutubeIcon className="h-20 w-20 text-red-700 ml-10 mt-5 "  />
+              <YoutubeIcon className="h-20 w-20 text-red-700 ml-10 mt-5 mb-20 "  />
             </a>
           </div>
 
