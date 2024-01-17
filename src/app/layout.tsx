@@ -13,7 +13,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Medpedia",
+  title: "medpaideia",
   description:
     "We are thrilled to offer you a comprehensive solution tailored to your learning needs.",
 };
@@ -39,7 +39,7 @@ export default function RootLayout({
       <meta property="og:image" content={`https://www.medpaideia.in/image/og-image.png`}/>
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content={`Medpedia Image`} />
+      <meta property="og:image:alt" content={`medpaideia Image`} />
       </head>
       <body className={roboto.className}>
         <Analytics />
