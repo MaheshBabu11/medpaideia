@@ -34,9 +34,9 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
         <link rel="shortcut icon" href="/icon.png" type="image/png" />
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://www.medpaideia.in/" />
       {/* og image */}
-      <meta property="og:image" content={`https://medpaideia.vercel.app/image/og-image.png`}/>
+      <meta property="og:image" content={`https://www.medpaideia.in/image/og-image.png`}/>
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content={`Medpedia Image`} />
