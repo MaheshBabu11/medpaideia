@@ -19,7 +19,7 @@ function NavItem({ children, href, onClick }: NavItemProps) {
       <Typography
         as="a"
         href={href || "#"}
-        target={href ? "_blank" : "_self"}
+        target={ "_self"}
         variant="small"
         className="font-medium"
       >
@@ -88,8 +88,8 @@ export function Navbar() {
           <NavItem onClick={() => window.scrollTo(0, 0)}>Home</NavItem>
           <NavItem>Gallery</NavItem>
           <NavItem>StudyMaterials</NavItem>
-          <NavItem href="#Footer">About Us</NavItem>
-          <NavItem>Contact Us</NavItem>
+          <NavItem  href="#Footer">About Us</NavItem>
+          <NavItem href="#Footer">Contact Us</NavItem>
 
           {/* <NavItem href="https://www.material-tailwind.com/docs/react/installation">
             Docs
@@ -169,8 +169,8 @@ export function Navbar() {
             <NavItem onClick={() => window.scrollTo(0, 0)}>Home</NavItem>
             <NavItem>Gallery</NavItem>
             <NavItem>StudyMaterials</NavItem>
-            <NavItem>About Us</NavItem>
-            <NavItem>Contact Us</NavItem>
+            <NavItem  href="#Footer">About Us</NavItem>
+            <NavItem  href="#Footer">Contact Us</NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
             <a href="https://x.com/Med_Paidea" target="_blank">

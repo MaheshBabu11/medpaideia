@@ -7,7 +7,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10 bg-gray-900 px-8 pt-12">
+    <footer id="Footer"className="mt-10 bg-gray-900 px-8 pt-12">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-1 md:justify-between">
           <div className="text-center md:text-left">
@@ -56,7 +56,7 @@ export function Footer() {
               className="fa fa-heart pulse text-red-700
             "
             ></i>{" "}
-            for MedPedia Team by <a href="https://www.linkedin.com/in/maheshbabu11/" target="_blank" className="text-white italic"
+            for MedPedia Team by <a href="https://www.instagram.com/m_r.coder/" target="_blank" className="text-white italic"
             >Mahesh Babu</a>
           </Typography>
         </div>
