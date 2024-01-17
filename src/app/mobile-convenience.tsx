@@ -36,7 +36,7 @@ export function MobileConvenience() {
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography variant="h2" color="blue-gray" className="mb-4" placeholder="YourPlaceholderValue">
             Mobile Convenience
           </Typography>
           <Typography

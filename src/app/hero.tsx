@@ -48,7 +48,7 @@ function Hero() {
       </header>
       <div className="mx-8 lg:mx-16 -mt-10 lg:-mt-32 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
-          <Typography variant="h3" color="blue-gray" className="mb-3">
+          <Typography variant="h3" color="blue-gray" className="mb-3" placeholder="YourPlaceholderValue">
             Our Mission
           </Typography>
           <Typography

@@ -12,10 +12,10 @@ export function InfoCard({ title, children }: InfoCardProps) {
   return (
     <Card color="transparent" shadow={false}>
       <CardBody className="grid px-0">
-        <Typography variant="h2" color="blue-gray" className="mb-2">
+        <Typography variant="h2" color="blue-gray" className="mb-2" placeholder="YourPlaceholderValue">
           {title}
         </Typography>
-        <Typography className=" font-normal">{children}</Typography>
+        <Typography placeholder="YourPlaceholderValue" className=" font-normal">{children}</Typography>
       </CardBody>
     </Card>
   );

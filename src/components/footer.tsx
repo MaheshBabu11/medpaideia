@@ -22,7 +22,7 @@ export function Footer() {
               About Us
             </Typography>
            
-            <Typography color="white" className="mb-5 font-normal ">
+            <Typography color="white" className="mb-5 font-normal " placeholder="YourPlaceholderValue">
               MedPedia Team <br />
               Ph: +91 9562424032 <br />
               Email: medpaideia.edu@gmail.com <br />
