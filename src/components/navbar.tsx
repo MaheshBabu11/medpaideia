@@ -96,7 +96,7 @@ export function Navbar() {
           </NavItem> */}
         </ul>
         <div className="hidden gap-2 lg:flex lg:items-center">
-          <a href="https://x.com/medpaideia" target="_blank">
+          <a href="https://x.com/Med_Paidea" target="_blank">
             <IconButton
               variant="text"
               color={isScrolling ? "gray" : "white"}
@@ -105,7 +105,7 @@ export function Navbar() {
               <i className="fa-brands fa-twitter text-base" />
             </IconButton>
           </a>
-          <a href="https://www.youtube.com/@Medpeadiaedu" target="_blank">
+          <a href="https://www.youtube.com/@MedPaideia" target="_blank">
             <IconButton
               variant="text"
               color={isScrolling ? "gray" : "white"}
@@ -115,7 +115,7 @@ export function Navbar() {
             </IconButton>
           </a>
           <a
-            href="https://www.facebook.com/people/Med-Paideia/61553814369516/"
+            href="https://www.facebook.com/profile.php?id=61555600858138"
             target="_blank"
           >
             <IconButton
@@ -126,7 +126,7 @@ export function Navbar() {
               <i className="fa-brands fa-facebook text-base" />
             </IconButton>
           </a>
-          <a href="https://www.instagram.com/medpaideia" target="_blank">
+          <a href="https://www.instagram.com/med_paideia" target="_blank">
             <IconButton
               variant="text"
               color={isScrolling ? "gray" : "white"}
@@ -135,7 +135,7 @@ export function Navbar() {
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
           </a>
-          <a href="https://wa.me/919562424032" target="_blank">
+          <a href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a" target="_blank">
             <IconButton
               variant="text"
               color={isScrolling ? "gray" : "white"}
@@ -173,30 +173,30 @@ export function Navbar() {
             <NavItem>Contact Us</NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
-            <a href="https://x.com/medpaideia" target="_blank">
+            <a href="https://x.com/Med_Paidea" target="_blank">
               <IconButton variant="text" size="sm">
                 <i className="fa-brands  fa-twitter text-base" />
               </IconButton>
             </a>
-            <a href="https://www.youtube.com/@Medpeadiaedu" target="_blank">
+            <a href="https://www.youtube.com/@MedPaideia" target="_blank">
               <IconButton variant="text" size="sm">
                 <i className="fa-brands fa-youtube text-base" />
               </IconButton>
             </a>
             <a
-              href="https://www.facebook.com/people/Med-Paideia/61553814369516/"
+              href="https://www.facebook.com/profile.php?id=61555600858138"
               target="_blank"
             >
               <IconButton variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-facebook text-base" />
               </IconButton>
             </a>
-            <a href="https://www.instagram.com/medpaideia" target="_blank">
+            <a href="https://www.instagram.com/med_paideia" target="_blank">
               <IconButton variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-instagram text-base" />
               </IconButton>
             </a>
-            <a href="https://wa.me/919562424032" target="_blank">
+            <a href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a" target="_blank">
               <IconButton variant="text" color="gray" size="sm">
                 <i className="fa-brands fa-whatsapp text-base" />
               </IconButton>

@@ -32,7 +32,7 @@ function Hero() {
               cutting-edge technology and curated by experts in the field
               offering a comprehensive solution tailored to your learning needs.
             </Typography>
-            <a href="https://www.youtube.com/@Medpeadiaedu" target="_blank">
+            <a href="https://www.youtube.com/@MedPaideia" target="_blank">
               <YoutubeIcon className="h-20 w-20 text-red-700 ml-10 mt-5 "  />
             </a>
           </div>
