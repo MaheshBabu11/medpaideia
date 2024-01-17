@@ -21,12 +21,14 @@ function Hero() {
               variant="h1"
               color="white"
               className="mb-4  backdrop-blur-sm "
+              placeholder="YourPlaceholderValue"
             >
               Your One Stop <br /> Medical Education Platform
             </Typography>
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28 backdrop-blur-sm"
+              placeholder="YourPlaceholderValue"
             >
               The ultimate companion for medical students designed with
               cutting-edge technology and curated by experts in the field
@@ -54,6 +56,7 @@ function Hero() {
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500"
+            placeholder="YourPlaceholderValue"
           >
             <strong>Medpedia</strong> stands at the forefront of revolutionizing
             medical education. Seamlessly blending technological innovation and
