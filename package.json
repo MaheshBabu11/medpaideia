@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-tailwind-app-presentation-page",
+  "name": "medpaideia",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-app-presentation-page",
+  "author": "Mahesh Babu",
+  "license": "See license in https://github.com/MaheshBabu11/medpaideia/blob/main/LICENSE",
+  "homepage": "https://www.medpaideia.in/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

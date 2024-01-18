@@ -19,7 +19,7 @@ function NavItem({ children, href, onClick }: NavItemProps) {
       <Typography
         as="a"
         href={href || "#"}
-        target={ "_self"}
+        target={"_self"}
         variant="small"
         className="font-medium"
         placeholder="YourPlaceholderValue"
@@ -78,7 +78,7 @@ export function Navbar() {
           placeholder="YourPlaceholderValue"
         >
           <div className="flex items-center">
-            <img src="/icon.png" alt="Icon" className="w-14 h-14" />
+            <img src="/icon.png" alt="Icon" className="w-14 h-14"/>
             <span>Medpaideia</span>
           </div>
         </Typography>
@@ -91,7 +91,7 @@ export function Navbar() {
           <NavItem onClick={() => window.scrollTo(0, 0)}>Home</NavItem>
           <NavItem>Gallery</NavItem>
           <NavItem>StudyMaterials</NavItem>
-          <NavItem  href="#Footer">About Us</NavItem>
+          <NavItem href="#Footer">About Us</NavItem>
           <NavItem href="#Footer">Contact Us</NavItem>
 
           {/* <NavItem href="https://www.material-tailwind.com/docs/react/installation">
@@ -142,7 +142,10 @@ export function Navbar() {
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
           </a>
-          <a href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a" target="_blank">
+          <a
+            href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a"
+            target="_blank"
+          >
             <IconButton
               variant="text"
               color={isScrolling ? "gray" : "white"}
@@ -178,17 +181,25 @@ export function Navbar() {
             <NavItem onClick={() => window.scrollTo(0, 0)}>Home</NavItem>
             <NavItem>Gallery</NavItem>
             <NavItem>StudyMaterials</NavItem>
-            <NavItem  href="#Footer">About Us</NavItem>
-            <NavItem  href="#Footer">Contact Us</NavItem>
+            <NavItem href="#Footer">About Us</NavItem>
+            <NavItem href="#Footer">Contact Us</NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
             <a href="https://x.com/Med_Paidea" target="_blank">
-              <IconButton variant="text" size="sm" placeholder="YourPlaceholderValue">
+              <IconButton
+                variant="text"
+                size="sm"
+                placeholder="YourPlaceholderValue"
+              >
                 <i className="fa-brands  fa-twitter text-base" />
               </IconButton>
             </a>
             <a href="https://www.youtube.com/@MedPaideia" target="_blank">
-              <IconButton variant="text" size="sm" placeholder="YourPlaceholderValue">
+              <IconButton
+                variant="text"
+                size="sm"
+                placeholder="YourPlaceholderValue"
+              >
                 <i className="fa-brands fa-youtube text-base" />
               </IconButton>
             </a>
@@ -196,17 +207,35 @@ export function Navbar() {
               href="https://www.facebook.com/profile.php?id=61555600858138"
               target="_blank"
             >
-              <IconButton variant="text" color="gray" size="sm" placeholder="YourPlaceholderValue">
+              <IconButton
+                variant="text"
+                color="gray"
+                size="sm"
+                placeholder="YourPlaceholderValue"
+              >
                 <i className="fa-brands fa-facebook text-base" />
               </IconButton>
             </a>
             <a href="https://www.instagram.com/med_paideia" target="_blank">
-              <IconButton variant="text" color="gray" size="sm" placeholder="YourPlaceholderValue">
+              <IconButton
+                variant="text"
+                color="gray"
+                size="sm"
+                placeholder="YourPlaceholderValue"
+              >
                 <i className="fa-brands fa-instagram text-base" />
               </IconButton>
             </a>
-            <a href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a" target="_blank">
-              <IconButton variant="text" color="gray" size="sm" placeholder="YourPlaceholderValue">
+            <a
+              href="https://www.whatsapp.com/channel/0029VaI4PgV35fLrtVHqNM2a"
+              target="_blank"
+            >
+              <IconButton
+                variant="text"
+                color="gray"
+                size="sm"
+                placeholder="YourPlaceholderValue"
+              >
                 <i className="fa-brands fa-whatsapp text-base" />
               </IconButton>
             </a>
