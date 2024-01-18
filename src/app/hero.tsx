@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
 import YoutubeIcon from "@/components/icons";
 
@@ -14,7 +13,6 @@ function Hero() {
             "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/image/bg.jpg')",
         }}
       >
-        {/* <div className="absolute inset-0 bg-black opacity-20"></div> */}
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-3 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography
@@ -40,13 +38,6 @@ function Hero() {
               <YoutubeIcon className="h-20 w-20 text-red-700 ml-10 mt-5 mb-20 "  />
             </a>
           </div>
-          {/* <Image
-            width={470}
-            height={576}
-            src="/image/iphones.png"
-            alt="team work"
-            className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
-          /> */}
         </div>
       </header>
       <div className="mx-8 lg:mx-16 -mt-5 lg:-mt-32 rounded-xl bg-white p-5 md:p-14 shadow-md">
