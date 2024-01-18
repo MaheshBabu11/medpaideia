@@ -49,7 +49,6 @@ export default function RootLayout({
         <SpeedInsights />
         <Layout>
           {children}
-          {/* <FixedPlugin /> */}
         </Layout>
       </body>
     </html>
