@@ -1,6 +1,6 @@
 {
   "name": "medpaideia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": "Mahesh Babu",
   "license": "See license in https://github.com/MaheshBabu11/medpaideia/blob/main/LICENSE",
@@ -19,7 +19,8 @@
     "next": "13.4.0",
     "next-pwa": "^5.6.0",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-lite-youtube-embed": "^2.4.0"
   },
   "devDependencies": {
     "@types/node": "20",
