@@ -1,14 +1,17 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import { IconButton } from "@material-tailwind/react";
-import { PlayIcon } from "@heroicons/react/24/outline";
+// import Image from "next/image";
+// import { IconButton } from "@material-tailwind/react";
+// import { PlayIcon } from "@heroicons/react/24/outline";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+
 
 export function VideoIntro() {
   return (
     <div className="p-8">
-      <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
+      {/* <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
         <div className="bg-black/25 z-10 absolute w-full h-full inset-0 rounded-xl" />
         <Image
           width={768}
@@ -32,8 +35,14 @@ export function VideoIntro() {
             />
           </IconButton>
         </div>
-      </div>
-    </div>
+      </div> */}
+    <div className="mt-10 mx-10 rounded-xl ">
+      <LiteYouTubeEmbed   id="-UCRipi97Fw" 
+  title="Medpaideia Intro"
+
+/>
+</div>
+</div>
   );
 }
 
